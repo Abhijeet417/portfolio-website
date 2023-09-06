@@ -1,0 +1,111 @@
+/* src/styles.css */
+.header-outer{
+    background-color: #272829;
+    margin: 0 2rem 5rem 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        /* Add a shadow */
+    transform: translateY(-10px);
+}
+.shine p{
+    position: relative;
+        font-size: 45px;
+        letter-spacing: 2px;
+        background: linear-gradient(90deg, #48d823, #fff, #000);
+        background-repeat: no-repeat;
+        background-size: 80%;
+        animation: animate 3s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate{
+    0%{
+        background-position: -400%;
+    }
+    100%{
+        background-position: +400%;
+    }
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+}
+
+.column {
+    flex: 1;
+}
+
+.column-left {
+    text-align: left;
+    padding-left: 2.5rem;
+}
+
+.column-right {
+    text-align: right;
+}
+
+.profile {
+    width: 25rem;
+    height: 25rem;
+}
+
+.slide-in-image {
+    position: relative;
+    right: -100px;
+    width: 450px;
+    height: 450px;
+    animation: slide-in-fade 1.75s forwards;
+    /* Use the combined animation */
+    object-fit: cover;
+    opacity: 0;
+    /* Initially set opacity to 0 for the fade-in effect */
+}
+
+@keyframes slide-in-fade {
+    0% {
+        right: -100px;
+        opacity: 0;
+        /* Fade-in effect starts with opacity 0 */
+    }
+
+    100% {
+        right: 0;
+        opacity: 2;
+        /* Fade-in effect ends with opacity 1 */
+    }
+}
+
+.heading {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    color: white;
+}
+
+.tagline {
+    font-size: 1.8rem;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: 1.1rem;
+    font-weight: bold;
+    background-color: #d2e8e8;
+    color: #230707;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* Adding a smooth transition */
+
+}
+
+.btn:hover {
+    background-color: grey;
+    color: white;
+}
+

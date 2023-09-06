@@ -1,0 +1,72 @@
+.about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 5rem;
+}
+
+/* left section*/
+.section-left {
+    flex: 1;
+    /* text-align: center; */
+    margin-left: 4rem;
+}
+.aboutImg{
+     height: 14rem;
+}
+
+/* Right section */
+.section-right {
+    flex: 1;
+    text-align: left;
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+ .aboutMe  h2{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #D8D9DA;
+} 
+.passion-list {
+    padding-left: 20px;
+    margin-top: 10px;
+    /* list-style: none; */
+}
+spam{
+    color: rgb(245, 29, 29);
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.passion-list li {
+    font-size: 1.1rem;
+    /* margin-left: 0; */
+    line-height: 2;
+    color: #FFF6E0;
+    letter-spacing: 3px; 
+    animation: ranimate 2s forwards; 
+}
+  
+@keyframes ranimate{
+    0% {
+            opacity: 0;
+        }
+    
+        100% {
+            opacity: 1;
+        }
+}
+.lifted-section {
+    display: inline-block;
+    transform: translate3d(0, 15px, 0);
+    /* Lift the image by 10px */
+    transition: transform 0.3s, box-shadow 0.3s;
+    /* Add transitions for smooth animation */
+}
+
+.lifted-section:hover {
+    transform: translate3d(0, 0, 0);
+    /* Bring the image back to its original position */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    /* Add a shadow on hover */
+}
