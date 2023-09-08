@@ -4,7 +4,7 @@ import Header from './Header';
 import About from './About';
 import Skills from './Skills';
 import Projects from './Projects';
-import Resume from './Resume';
+// import Resume from './Resume';
 import Contact from './Contact';
 import Footer from './Footer';
 
@@ -15,7 +15,7 @@ function Portfolio() {
       <About />
       <Projects />
       <Skills />
-      <Resume />
+      {/* <Resume /> */}
       <Contact />
       <Footer />
     </div>

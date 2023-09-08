@@ -38,16 +38,17 @@ spam{
     font-size: 1.2rem;
     font-weight: bold;
 }
-.passion-list li {
+.passion-list {
     font-size: 1.1rem;
     /* margin-left: 0; */
     line-height: 2;
     color: #FFF6E0;
     letter-spacing: 3px; 
-    animation: ranimate 2s forwards; 
+    margin-left: 0;
+    /* animation: ranimate 2s forwards;  */
 }
   
-@keyframes ranimate{
+/* @keyframes ranimate{
     0% {
             opacity: 0;
         }
@@ -55,7 +56,7 @@ spam{
         100% {
             opacity: 1;
         }
-}
+} */
 .lifted-section {
     display: inline-block;
     transform: translate3d(0, 15px, 0);

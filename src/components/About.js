@@ -10,11 +10,9 @@ function About() {
       </div>
       <div className="aboutMe section-right lifted-section">
         <h2 className="shaded-h1">More about me</h2>
-         <ul className="passion-list" >
-          <li data-text="My">My development passion is driven by a relentless desire to innovate<spam> ;</spam></li>
-          <li data-text="Full">I try to stay at the forefront of technology<spam> ;</spam></li>
-          <li data-text="Stack">Coding with Coffee<spam> :</spam> Dreaming in JavaScript<spam> ;</spam></li>
-        </ul>
+         <p className="passion-list" >
+          Hello, I'm a web developer and UI/UX designer. I'm passionate about crafting beautiful digital experiences that solve real problems.I'm committed to learning and growing, and I love collaborating with others to bring ideas to life. Let's create impactful digital solutions together!
+           </p>
        </div>
     </section>
   );

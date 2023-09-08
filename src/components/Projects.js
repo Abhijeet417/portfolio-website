@@ -11,7 +11,7 @@ function Projects() {
         <div className="row">
           <div className="col-md-6 leftSection lifted-section" style={{color : 'white'}}>
             <h1 >My projects</h1>
-            <p>I'm making more projects</p>
+            <p>I'm currently working on more exciting projects that are in the pipeline. These projects are a testament to my commitment to continuous learning and improvement.</p>
           </div>
           <div className="col-md-6">
             <div className='row' style={{paddingLeft : "1.2rem"}}>

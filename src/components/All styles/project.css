@@ -1,3 +1,6 @@
+.card:hover {
+    transform: scale(1.1);
+}
 .card-body {
     display: flex;
     flex-direction: column;
@@ -61,6 +64,6 @@ ul.list-unstyled li {
 .lifted-section:hover {
     transform: translate3d(0, 0, 0);
     /* Bring the image back to its original position */
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 10px 20px #665be5;
     /* Add a shadow on hover */
 }

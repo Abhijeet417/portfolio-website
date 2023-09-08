@@ -1,7 +1,7 @@
 /* src/styles.css */
 .header-outer{
     background-color: #272829;
-    margin: 0 2rem 5rem 2rem;
+    margin: 0 2rem 3rem 2rem;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         /* Add a shadow */
     transform: translateY(-10px);
