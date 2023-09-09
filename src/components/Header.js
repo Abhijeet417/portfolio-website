@@ -5,8 +5,8 @@ import ProfileImage from './All images/image.png'
 function Header() {
   return (
     <header className=" header-outer">
-      <div class = "header">
-        <div className="column column-left">
+      <div class = "header row">
+        <div className="col-md-6 column column-left">
        
         <div className='shine'>
            <p >Hey there,</p>
@@ -17,7 +17,7 @@ function Header() {
          <button type="button" class="btn">Download Resume</button>
         </div>
       </div>
-      <div className="column column-right">
+      <div className="col-md-6 column column-right">
         <img src={ProfileImage} class="profile slide-in-image" alt="Yourself" />
       </div>
       </div>

@@ -1,31 +1,36 @@
-/* Keyframes for fade-in animation */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
+
+/* ============================ MEDIA QUERIES (MEDIUM DEVICES)====================== */
+
+@media screen and (max-width:1024px) {
+    .container {
+        width: var(--container-width-md);
     }
 
-    to {
-        opacity: 1;
-    }
-}
+    section {
+        margin-top: 2rem;
+        height: auto;
+        padding: 1rem;
 
-/* Keyframes for fade-out animation */
-@keyframes fadeOut {
-    from {
-        opacity: 1;
-    }
-
-    to {
-        opacity: 0;
     }
 }
 
-/* Apply the fade-in animation */
-.fade-element.fade-in {
-    animation: fadeIn 1s ease-in-out forwards;
+/* ============================ MEDIA QUERIES (SMALL DEVICES)====================== */
+
+@media screen and (max-width:600px) {
+    .porfolio{
+       text
+    } 
+
 }
 
-/* Apply the fade-out animation */
-.fade-element.fade-out {
-    animation: fadeOut 1s ease-in-out forwards;
+
+@media screen and (max-width:400px) {
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5 {
+        line-height: 50px;
+    }
 }

@@ -10,7 +10,7 @@ import Footer from './Footer';
 
 function Portfolio() {
   return (
-    <div className="portfolio" style={{backgroundColor : "#272829",margin:"0"}}>
+    <div className="portfolio" style={{backgroundColor : "#272829",margin:"0 0 0 0"}}>
       <Header />
       <About />
       <Projects />

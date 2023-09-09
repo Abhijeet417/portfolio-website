@@ -76,7 +76,7 @@
 
 .experience_content{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.7fr 1fr;
     row-gap: 2rem;
 }
 

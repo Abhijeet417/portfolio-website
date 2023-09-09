@@ -1,3 +1,8 @@
+.row{
+        margin-right: 0;
+            margin-left: 0;
+}
+
 .about {
     display: flex;
     justify-content: space-between;
@@ -70,4 +75,30 @@ spam{
     /* Bring the image back to its original position */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
     /* Add a shadow on hover */
+}
+
+
+@media  (max-width:950px){
+     
+}    
+@media (max-width: 949px) {
+    .about{
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+         
+    }
+
+    .section-left,.section-right{
+        margin: 0 auto;
+        text-align: center;
+        width: 80%;
+        /* Make both sections take full width, stacking them vertically */
+    }
+       
+}
+/* ============================ MEDIA QUERIES (SMALL DEVICES)====================== */
+@media (max-width:768px) {
+     
 }
